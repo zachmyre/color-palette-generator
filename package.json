@@ -1,0 +1,24 @@
+{
+  "name": "palette-generator",
+  "version": "1.0.0",
+  "description": "A palette generator created by inputting keywords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon ./backend/server.js"
+  },
+  "author": "Zachary Myre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "get-image-colors": "^4.0.1",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
